@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="assets/image.png" alt="" />
+        </div>
+        <ul>
+          <li><a href="#"></a>About us</li>
+          <li><a href="#"></a>Projects</li>
+          <li><a href="#"></a>Agents</li>
+          <li><a href="#"></a>Services</li>
+          <li><a href="#"></a>Listings</li>
+          <ion-icon name="search-outline" class="search"></ion-icon>
+        </ul>
+        <button class="btn1">our services</button>
+        <button class="btn2">contact us</button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="left">
+          <p class="hero-subtitle">Welcome to Realstate</p>
+          <h1 class="hero-title">Manage Your Property</h1>
+          <p class="hero-txt">
+            Your will have everything nearby supermarket, buses , station,<br />
+            the carmen neighborhood, etc
+          </p>
+          <div>
+            <input type="text" placeholder="Enter your email" class="inpt" />
+            <button class="btndown">Get a Quote</button>
+          </div>
+        </div>
+        <div class="right">
+          <img src="assets/image copy.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
